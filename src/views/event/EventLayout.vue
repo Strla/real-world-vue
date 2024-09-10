@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import { formatDate } from '@/helpers/helpers'
 import { type Event } from '@/models/models'
 import EventService from '@/services/EventService'
 
@@ -26,8 +25,12 @@ onMounted(() => {
 <template>
   <div v-if="event">
     <h1>{{ event.title }}</h1>
-    <p>{{ event.time }} on {{ formatDate(event.date) }} @ {{ event.location }}</p>
-    <p>{{ event.description }}</p>
+    <div id="nav">
+      <RouterLink :to="{ name: 'event-details' }">Details</RouterLink>
+      <RouterLink :to="{ name: 'event-register' }">Register</RouterLink>
+      <RouterLink :to="{ name: 'event-edit' }">Edit</RouterLink>
+    </div>
+    <RouterView :event="event"></RouterView>
   </div>
 </template>
 

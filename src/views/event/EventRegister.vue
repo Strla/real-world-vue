@@ -1,0 +1,9 @@
+<script setup lang="ts">
+defineProps(['event'])
+</script>
+
+<template>
+  <p>Register for the event here</p>
+</template>
+
+<style scoped></style>
