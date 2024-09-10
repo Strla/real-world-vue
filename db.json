@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "id": 5928101,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Come meet our adoptable cats and kittens, and give them a forever home!",
+      "location": "Animal Shelter, 123 Main St, Springfield, IL",
+      "date": "2023-05-10",
+      "time": "11:00 AM",
+      "petsAllowed": true,
+      "organizer": "Kat Laydee"
+    },
+    {
+      "id": 5928102,
+      "category": "community service",
+      "title": "Park Clean-Up",
+      "description": "Join us for a community park clean-up event. Let's make our local park a beautiful place again!",
+      "location": "Centennial Park, 456 Maple St, Springfield, IL",
+      "date": "2023-06-15",
+      "time": "9:00 AM",
+      "petsAllowed": false,
+      "organizer": "John Green"
+    },
+    {
+      "id": 5928103,
+      "category": "health & wellness",
+      "title": "Outdoor Yoga Class",
+      "description": "Free outdoor yoga session for all fitness levels. Bring a mat and join us for some mindful movement.",
+      "location": "Riverside Park, 789 River St, Springfield, IL",
+      "date": "2023-07-02",
+      "time": "7:00 AM",
+      "petsAllowed": false,
+      "organizer": "Maya Patel"
+    },
+    {
+      "id": 5928104,
+      "category": "education",
+      "title": "Tech Workshop: Intro to Web Development",
+      "description": "Learn the basics of HTML, CSS, and JavaScript in this beginner-friendly workshop.",
+      "location": "Tech Hub, 234 Elm St, Springfield, IL",
+      "date": "2023-08-10",
+      "time": "1:00 PM",
+      "petsAllowed": false,
+      "organizer": "Chris Developer"
+    },
+    {
+      "id": 5928105,
+      "category": "arts & culture",
+      "title": "Local Artist Exhibition",
+      "description": "Explore works from talented local artists in a special evening exhibition.",
+      "location": "Art Gallery, 321 Oak St, Springfield, IL",
+      "date": "2023-09-18",
+      "time": "6:00 PM",
+      "petsAllowed": false,
+      "organizer": "Amy Painter"
+    },
+    {
+      "id": 5928106,
+      "category": "music & entertainment",
+      "title": "Jazz in the Park",
+      "description": "Enjoy a relaxing evening of live jazz music under the stars.",
+      "location": "Town Square, 987 Main St, Springfield, IL",
+      "date": "2023-10-05",
+      "time": "7:00 PM",
+      "petsAllowed": true,
+      "organizer": "Lisa Harmony"
+    }
+  ]
+}
