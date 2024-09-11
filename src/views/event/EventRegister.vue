@@ -1,10 +1,23 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
+import { defineProps, inject } from 'vue'
+
+export type GStoreType = {
+  flashMessage: string
+}
+
 const props = defineProps(['event'])
 const router = useRouter()
+const GStore = inject<GStoreType>('GStore')
+
 const register = () => {
-  console.log('Registering for event:', props.event)
-  router.push({ name: 'event-details' })
+  if (GStore) {
+    GStore.flashMessage = `Event registration successful for ${props.event.title}`
+    setTimeout(() => {
+      GStore.flashMessage = ''
+    }, 3000)
+    router.push({ name: 'event-details' })
+  }
 }
 </script>
 
